@@ -104,7 +104,7 @@ public class Basics {
             System.out.println("Current count: " + i);
         }
 
-        int[] a = {0,1,0,1,0,1};
+        int[] a = {0,2,0,3};
         System.out.println(oddSum(a));
     }
 
@@ -177,7 +177,7 @@ public class Basics {
          */
 
         if (arr.length > 1){
-            for (int i = 1; i <= arr.length; i = i + 2) {
+            for (int i = 1; i < arr.length; i = i + 2){
                 current_sum += arr[i];
             }
         }
